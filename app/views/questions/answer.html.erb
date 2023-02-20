@@ -1,0 +1,6 @@
+<form action="/answer" data-turbo="false" class="input-group mb-3 width-contain">
+  <input type="text" value="<%= params[:question] %>" name="question" class="form-control">
+  <input type="submit" value="Ask!" class="btn btn-primary btn-outline-secondary white-font">
+</form>
+
+<div class = "no-deco"><%= link_to "#{@answer}", ask_path %></div>

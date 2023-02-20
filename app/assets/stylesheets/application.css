@@ -13,3 +13,21 @@
  *= require_tree .
  *= require_self
  */
+
+.container{
+width: 600px;
+margin: 50px;
+padding: 20px;
+}
+
+.width-contain{
+  width: 100%;
+}
+
+.white-font{
+  color: rgb(235, 235, 235);
+}
+
+.no-deco  {
+  text-decoration: none;
+}
